@@ -251,3 +251,51 @@
     margin-left: -100px;
     margin-top: -100px;
 }
+
+@media screen and (max-width: 576px) {
+    .features-section {
+        flex-direction: column;
+    }
+
+    .features-title {
+        font-size: 2rem;
+    }
+
+    .feature-container {
+        width: 100%;
+    }
+
+    .architect img {
+        width: 100%;
+    }
+
+    #experience-badge {
+        margin-left: 100px;
+        margin-top: 20px;
+        padding: 10px;
+        justify-items: center;
+    }
+
+    #ten-year {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:776px) {
+    .features-section {
+        flex-direction: column;
+    }
+
+    .feature-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .architect img {
+        width: 100%;
+    }
+
+    #experience-badge {
+        margin-left: 180px;
+    }
+}
