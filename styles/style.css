@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* common-tags
+================= */
+.color-dark1 {
+    color: #131313;
+}
+
+.color-dark2 {
+    color: #424242;
+}
+
+.color-dark3 {
+    color: #727272;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.bg-light {
+    background-color: #fff4e7;
+}
+
+/* navbar styles 
+================= */
+.navbar {
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.brand-name {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.brand-menu {
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+
+.brand-items a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-content {
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    font-size: 4rem;
+}
+
+.banner-description {
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff900e;
+    color: #fff4e7;
+}
+
+.btn-primary:hover {
+    background-color: #d95c5c;
+    transition: 0.6s;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* media query small device 
+============================ */
+@media screen and (max-width: 576px) {
+
+    .navbar,
+    .brand-menu {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    ul li {
+        text-decoration: underline;
+    }
+
+    .brand-name {
+        font-size: 2.5rem;
+        margin-bottom: 0px;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+
+    .banner-description {
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        padding: 15px 30px;
+        font-size: 1rem;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .navbar {
+        display: flex;
+    }
+
+    .brand-name {
+        font-size: 1.6rem;
+    }
+
+    .brand-items {
+        margin-left: -15px;
+        font-size: 1.5rem;
+    }
+
+}
+
+/* content section styles 
+========================== */
+.content-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.content-feature {
+    margin-left: 50px;
+}
+
+.quick-text {
+    font-size: 2.5rem;
+}
+
+.quick-list {
+    font-weight: 500;
+}
+
+.features {
+    color: #ff900e;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .content-img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content-feature {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:776px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .content-img img {
+        width: 100%;
+    }
+
+    .content-feature {
+        text-align: center;
+    }
+}
+
+/* features section styles 
+========================== */
+.features-section {
+    margin-top: 100px;
+}
+
+.feature-container {
+    margin-right: 150px;
+}
+
+.features-title {
+    font-size: 2.5rem;
+    padding-left: 15px;
+    border-left: 5px solid #ff900e;
+}
+
+.feature-card {
+    padding: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.feature-card-title {
+    font-size: 1.2rem;
+}
+
+.feature-card-description {
+    font-size: 1rem;
+}
+
+#ten-year {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#experience-badge {
+    padding: 25px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
